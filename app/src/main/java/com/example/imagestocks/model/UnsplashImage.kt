@@ -1,4 +1,4 @@
-package com.example.imagestocks.model.data
+package com.example.imagestocks.model
 
 data class UnsplashImage(
     val id: String,

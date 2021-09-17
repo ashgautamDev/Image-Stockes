@@ -1,4 +1,8 @@
 package com.example.imagestocks
 
-class ImageStocksApplication {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+
+@HiltAndroidApp
+class ImageStocksApplication : Application() { }
